@@ -1,0 +1,22 @@
+{
+  "name": "mukai-med",
+  "version": "0.0.0",
+  "description": "Mukai medical site",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafkhan/cherry-blossom.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafkhan/cherry-blossom/issues"
+  },
+  "homepage": "https://github.com/rafkhan/cherry-blossom",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-less": "^1.3.6"
+  }
+}
