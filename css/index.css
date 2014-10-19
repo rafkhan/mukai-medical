@@ -203,15 +203,25 @@ body {
 }
 #why-choose-us {
   background-color: #dfdfdf;
+  padding: 20px 0;
 }
 #why-choose-us h3 {
   font-size: 25px;
-  line-height: 1.5em;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 #why-choose-us .section {
   width: 50%;
   display: inline-block;
+  line-height: 1.4em;
+}
+#why-choose-us .section.top {
+  margin-bottom: 40px;
+}
+#why-choose-us .section.left {
+  padding-right: 20px;
+}
+#why-choose-us .section.right {
+  padding-left: 20px;
 }
 #cert-30pt {
   text-align: center;
@@ -230,9 +240,83 @@ body {
   font-size: 30px;
 }
 #cert-30pt #brands .row {
-  margin-top: 40px;
+  margin: 40px 0;
 }
 #cert-30pt #brands .row .third {
   display: inline-block;
   width: 33.3%;
+}
+#pricing-packages {
+  background-color: #36729e;
+  color: white;
+}
+#pricing-packages #pricing-content h2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 100;
+}
+#pricing-packages #pricing-content .row .col {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+}
+#pricing-packages #pricing-content .row .col .title.pro h4 {
+  font-size: 36px;
+}
+#pricing-packages #pricing-content .row .col .title h4 {
+  font-size: 28px;
+}
+#pricing-packages #pricing-content .row .col .body.no-border {
+  border: none;
+}
+#pricing-packages #pricing-content .row .col .body {
+  text-align: left;
+  padding: 0 40px;
+  border-right: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#pricing-packages #pricing-content .row .col .body p {
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 100;
+}
+#pricing-packages #pricing-content .row .col .price {
+  margin-bottom: 40px;
+  font-weight: 100;
+  font-size: 20px;
+}
+#call-us {
+  text-align: center;
+}
+#call-us h3 {
+  color: #36729e;
+  font-size: 40px;
+  margin: 40px 0;
+}
+#map-container {
+  position: relative;
+  height: 400px;
+}
+#map-canvas {
+  height: 400px;
+}
+.contact {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #36729e;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+  background: white;
+  background: rgba(255, 255, 255, 0.6);
+}
+.contact small {
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 20px;
 }

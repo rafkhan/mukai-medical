@@ -149,16 +149,29 @@ html, body {
 
 #why-choose-us {
   background-color: #dfdfdf;
+  padding: 20px 0;
 
   h3 {
     font-size: 25px;
-    line-height: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .section {
     width: 50%;
     display: inline-block;
+    line-height: 1.4em;
+  }
+
+  .section.top {
+    margin-bottom: 40px;
+  }
+
+  .section.left {
+    padding-right: 20px;
+  }
+
+  .section.right {
+    padding-left: 20px;
   }
 }
 
@@ -184,12 +197,101 @@ html, body {
     }
 
     .row {
-      margin-top: 40px;
+      margin: 40px 0;
 
       .third {
         display: inline-block;
         width: 33.3%;
       }
     }
+  }
+}
+
+#pricing-packages {
+  background-color: @logo-blue;
+  color: white;
+
+  #pricing-content {
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      font-size: 40px;
+      font-weight: 100;
+    }
+
+    .row .col {
+      display: inline-block;
+      width: 33.3%;
+      text-align: center;
+
+      .title.pro { h4 { font-size: 36px; }}
+
+      .title {
+        h4 {
+          font-size: 28px;
+        }
+      }
+
+      .body.no-border { border: none; }
+
+      .body {
+        text-align: left;
+        padding: 0 40px;
+        border-right: 1px solid white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        p {
+          font-size: 16px;
+          line-height: 1.4em;
+          font-weight: 100;
+        }
+      }
+
+      .price {
+        margin-bottom: 40px;
+        font-weight: 100;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+#call-us {
+  text-align: center;
+  
+  h3 {
+    color: @logo-blue;
+    font-size: 40px;
+    margin: 40px 0;
+  }
+}
+
+#map-container {
+  position: relative;
+  height: 400px;
+}
+
+#map-canvas {
+  height: 400px;
+}
+
+.contact {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: @logo-blue;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+  background: white;
+  background: rgba(255, 255, 255, 0.6);
+
+  small {
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
   }
 }
