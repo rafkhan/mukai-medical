@@ -1,0 +1,238 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+strong {
+  font-weight: 400;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #454545;
+}
+.w100-container {
+  width: 100%;
+  min-width: 1000px;
+}
+.center-container {
+  width: 1000px;
+  margin: auto;
+  padding: 15px;
+}
+#header {
+  height: 130px;
+  padding: 5px;
+}
+#header .header-left {
+  width: 50%;
+  display: inline-block;
+}
+#header .header-right {
+  width: 50%;
+  display: inline-block;
+}
+#banner-container {
+  background-color: #36729e;
+  height: 512px;
+  color: white;
+}
+#banner-container h2 {
+  margin-top: 20px;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+#banner-container p {
+  max-width: 350px;
+  margin: 40px 0;
+  font-size: 25px;
+  line-height: 1.3em;
+  font-weight: 100;
+}
+#banner-container button {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+#banner-container button:hover {
+  cursor: pointer;
+}
+#idek {
+  text-align: center;
+  height: 200px;
+}
+#idek h2 {
+  color: #666666;
+  font-size: 40px;
+  margin-top: 30px;
+  line-height: 1.3em;
+}
+#why-choose-us {
+  background-color: #dfdfdf;
+}
+#why-choose-us h3 {
+  font-size: 25px;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+#why-choose-us .section {
+  width: 50%;
+  display: inline-block;
+}
+#cert-30pt {
+  text-align: center;
+}
+#cert-30pt #cert-text h3 {
+  color: #666666;
+  font-size: 40px;
+  line-height: 1.3em;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: #AAA 1px solid;
+}
+#cert-30pt #brands h4 {
+  color: #666666;
+  font-size: 30px;
+}
+#cert-30pt #brands .row {
+  margin-top: 40px;
+}
+#cert-30pt #brands .row .third {
+  display: inline-block;
+  width: 33.3%;
+}
